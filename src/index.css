@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+/* General styling */
+
+
+.theme-1{
+  color: white;
+}
+.theme-2{
+  color: hsl(60, 10%, 19%);
+}
+.theme-3{
+  color: hsl(52, 100%, 62%);
+}
+.theme-switcher{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+.theme-switcher .text{
+  font-size: 10px;
+  
+}
+.numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 90px;
+  color: white;
+}
+
+.switch-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.slider {
+  position: absolute;
+  top: -20px;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #ff6b6b;
+  transition: transform 0.3s ease;
+}
+
+.slider-1 {
+  transform: translateX(0);
+}
+
+.slider-2 {
+  transform: translateX(10px);
+}
+
+.slider-3 {
+  transform: translateX(20px);
+}
+
+.switch {
+  width: 80px;
+  border-radius: 20px;
+  padding: 0 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.switch-1{
+  background-color: hsl(223, 31%, 20%);
+}
+.switch-2{
+  background-color: hsl(0, 5%, 81%);
+}
+.switch-3{
+  background-color: hsl(268, 71%, 12%);
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  background-color: #e74c3c;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+.circle:hover{
+  background-color: hsl(25, 98%, 52%);
+}
+
+.circle.theme-1 {
+  transform: translateX(0);
+}
+
+.circle.theme-2 {
+  transform: translateX(30px);
+}
+
+.circle.theme-3 {
+  transform: translateX(60px);
+  background-color: rgb(11, 128, 196);
+}
+.circle.theme-3:hover{
+  background-color: aqua;
+}

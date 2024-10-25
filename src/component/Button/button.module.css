@@ -1,0 +1,121 @@
+.container {
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.keypadContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+.btn {
+  width: 80px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-bottom: 3px solid hsl(28, 16%, 65%);
+}
+.btn:hover {
+  background-color: white;
+  cursor: pointer;
+}
+.keypadContainer:nth-child(2) {
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+.eval,
+.btn:nth-child(4) {
+  width: 90%;
+  color: white;
+}
+.themeContainer-1{
+  background-color: hsl(223, 31%, 20%);
+}
+.themeContainer-2{
+  background-color: hsl(0, 5%, 81%);
+}
+.themeContainer-3{
+  background-color: hsl(268, 71%, 12%);
+}
+.theme-1 {
+  background-color: hsl(30, 25%, 89%); /* Theme 1 button background */
+  color: hsl(221, 14%, 31%);
+}
+
+.theme-2 {
+  background-color: hsl(45, 7%, 89%); /* Theme 2 button background */
+  color: hsl(60, 10%, 19%);
+}
+
+.theme-3 {
+  background-color: hsl(268, 47%, 21%); /* Theme 3 button background */
+  border-bottom: 3px solid hsl(290, 70%, 36%);
+  color: hsl(52, 100%, 62%);
+}
+.theme-3:hover{
+  background-color: hsl(273, 73%, 33%);
+}
+.evalTheme-1,
+.theme-1:nth-child(4) {
+  background-color: hsl(225, 21%, 49%);
+  border-bottom: 3px solid hsl(224, 28%, 35%);
+}
+.evalTheme-1:hover,
+.theme-1:nth-child(4):hover {
+  background-color: rgb(152, 151, 241);
+}
+.evalTheme-1:nth-child(2) {
+  background-color: hsl(6, 63%, 50%);
+  border-bottom: 3px solid hsl(6, 70%, 34%);
+}
+.evalTheme-1:nth-child(2):hover {
+  background-color: tomato;
+}
+.evalTheme-2,.theme-2:nth-child(4){
+   background-color: hsl(185, 42%, 37%);
+   border-bottom: 3px solid hsl(185, 58%, 25%);
+}
+.evalTheme-2:hover,
+.theme-2:nth-child(4):hover {
+  background-color: hsl(185, 80%, 39%);
+}
+.evalTheme-2:nth-child(2) {
+  background-color: hsl(25, 98%, 40%);
+  border-bottom: 3px solid hsl(25, 99%, 27%);
+}
+.evalTheme-2:nth-child(2):hover{
+  background-color: hsl(25, 98%, 52%);
+}
+.evalTheme-3,.theme-3:nth-child(4){
+  background-color: hsl(281, 89%, 26%);
+  border-bottom: 3px solid  hsl(285, 91%, 52%);
+}
+.evalTheme-3:hover,
+.theme-3:nth-child(4):hover {
+  background-color: hsl(276, 54%, 36%);
+}
+.evalTheme-3:nth-child(2) {
+  background-color: hsl(176, 100%, 44%);
+  border-bottom: 3px solid hsl(177, 92%, 70%);
+  color:  hsl(268, 71%, 12%);
+}
+.evalTheme-3:nth-child(2):hover{
+  background-color: rgb(117, 231, 231);
+  border-bottom-color: hsl(176, 100%, 44%);
+
+}
+h1 {
+color: hsl(268, 71%, 12%);
+color: hsl(281, 89%, 26%);
+color:  hsl(285, 91%, 52%);
+color:  hsl(176, 100%, 44%);
+color: hsl(177, 92%, 70%);
+color: hsl(268, 47%, 21%);
+color: hsl(290, 70%, 36%);
+color: hsl(52, 100%, 62%);
+color: hsl(198, 20%, 13%);
+}

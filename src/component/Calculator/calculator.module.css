@@ -1,0 +1,9 @@
+body{
+    background-color: hsl(222, 26%, 31%);
+}
+.calcBody{
+    width: 400px;
+    height: 550px;
+    padding: 10px;
+    margin: 50px auto;
+}
