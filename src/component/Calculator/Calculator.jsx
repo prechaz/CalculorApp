@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import style from './calculator.module.css'
-import Theme from '../Theme/Theme'
-import Input from '../Input/Input'
-import Button from '../Button/Button'
+import Theme from '../Theme/Theme.jsx'
+import Input from '../Input/Input.jsx'
+import Button from '../Button/Button.jsx'
 
 function Calculator() {
     const[input, setInput] = useState('')
